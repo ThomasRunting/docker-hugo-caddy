@@ -1,7 +1,7 @@
-FROM deadmeatgames/caddy-docker
+FROM abiosoft/caddy:latest
 MAINTAINER Hyacinthus <hyacinthus@gmail.com>
 
-ARG hugo_version=0.46
+ARG hugo_version=0.50
 
 RUN apk add --no-cache openssh-client git tar curl
 
